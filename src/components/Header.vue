@@ -1,6 +1,5 @@
 <template>
   <div id="header">
-    <img width="10%" src="../assets/logo.png">
     <HelloWorld msg="Accessibility in Vue"/>
   </div>
 </template>
@@ -24,6 +23,6 @@ export default {
   color: #2c3e50;
   padding: 1em;
   text-align: center;
-  background: lemonchiffon;
+  background: whitesmoke;
 }
 </style>

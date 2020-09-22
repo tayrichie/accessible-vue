@@ -1,34 +1,29 @@
 <template>
   <ul id="app">
     <li>
-      <v-link href="/">Home</v-link>
+      <a href="/">Home</a>
     </li>
     <li>
-      <v-link href="/page-titles">Page Titles</v-link>
+      <a href="/page-titles">Page Titles</a>
     </li>
     <li>
-      <v-link href="/focus-management">Focus Management</v-link>
+      <a href="/focus-management">Focus Management</a>
     </li>
     <li>
-      <v-link href="/click-events">Click Events</v-link>
+      <a href="/click-events">Click Events</a>
     </li>
     <li>
-      <v-link href="/aria-live">Aria Live and Alert Regions</v-link>
+      <a href="/aria-live">Aria Live and Alert Regions</a>
     </li>
     <li>
-      <v-link href="/theming">Theming: Dark & Light Mode</v-link>
+      <a href="/theming">Theming: Dark & Light Mode</a>
     </li>
   </ul>
 </template>
 
 <script>
-import VLink from "../components/VLink";
-
 export default {
-  name: "Nav",
-  components: {
-    VLink
-  }
+  name: "Nav"
 };
 </script>
 

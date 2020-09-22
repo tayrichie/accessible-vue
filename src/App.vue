@@ -1,21 +1,21 @@
 <template>
   <div id="app">
     <Header/>
-    <Home/>
+    <Nav/>
+    <hr>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header";
-import Home from "./pages/home";
-import PageTitles from "./pages/page-titles";
+import Nav from "./components/Nav";
 
 export default {
   name: "App",
   components: {
     Header,
-    Home,
-    PageTitles
+    Nav
   }
 };
 </script>
@@ -26,5 +26,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+
+pre,
+code {
+  font-size: 1.1em;
 }
 </style>
